@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Livro de ofertas</title>
+</head>
+<body>
+    <main >
+    <table class="tabela">
+        <thead class="tabela_cabecalho">
+            <tr>
+                <td>Posição</td>
+                <td>Valor</td>
+                <td>Quantidade</td>
+            </tr>
+        </thead>
+        <tbody id="container"></tbody>
+    </table>
+    <p class="aviso">Resultado Disponível Também no Console!</p>
+
+    <form class="form">
+        <div>
+            <h1>Editar tabela</h1>
+        <label>O que deseja fazer?</label>
+        <select name="Acao" id="spinner">
+            <option value="">Escolha uma Ação</option>
+            <option value="Inserir">Inserir</option>
+            <option value="modificar">Modificar</option>
+            <option value="deletar">Deletar</option>
+        </select>
+
+        <div class="div_posicao esconder">
+            <label>Escolha a posição</label>
+            <input type="number"/>
+        </div>
+
+        <div class="div_valor esconder">
+            <label>Escolha o Valor</label>
+            <input type="number"/>
+        </div>
+
+        <div class="div_quantidade esconder">
+            <label>Escolha a quantidade</label>
+            <input type="number"/>
+        </div>
+        </div>
+        <span></span>
+        <button>Concluir</button>
+    </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
