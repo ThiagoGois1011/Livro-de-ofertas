@@ -178,6 +178,8 @@ function ConfiguraFormulario(arrayDados){
                     break;
                 }
             }  
+        }else{
+            validacao.innerHTML = "Escolha uma ação!!";
         }
     });
 
