@@ -204,11 +204,6 @@ function InterpretaDados(dados){
 }
 
 
-
-
-//Fiquei em duvida se poderia organizar a entrada de dados de outra maneira, então mantive o mais proximo do exemplo,
-//porém faria isso de outra maneira.
-
 let inputDados = "12\n" + "1,0,15.4,50\n" + "2,0,15.5,50\n" + "2,2,0,0\n" + "2,0,15.4,10\n" + "3,0,15.9,30\n" +  
 "3,1,0,20\n" + "4,0,16.50,200\n" + "5,0,17.00,100\n" + "5,0,16.59,20\n" + "6,2,0,0\n" +"1,2,0,0\n" + "2,1,15.6,0";
 const dadosProcessados = InterpretaDados(inputDados);
